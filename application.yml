@@ -1,3 +1,6 @@
 info:
   description: Day Spring Cloud Samples
   url: https://github.com/spring-cloud-samples/day
+
+bar: bar
+foo: foo
