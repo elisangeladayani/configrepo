@@ -1,2 +1,8 @@
 info:
   description: Simple - ASP.NET Core Sample Application
+
+#interval in seconds
+spring:
+    cloud:
+        config:
+            refreshInterval: 60
