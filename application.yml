@@ -4,9 +4,3 @@ info:
 
 bar: bar
 foo: foo
-
-#interval in seconds
-spring:
-    cloud:
-        config:
-            refreshInterval: 60
