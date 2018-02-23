@@ -4,3 +4,8 @@ info:
 
 bar: bar
 foo: foo
+
+spring:
+    cloud:
+        config:
+            refreshInterval: 60
