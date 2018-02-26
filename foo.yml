@@ -1,5 +1,5 @@
 info:
-  description: Simple - ASP.NET Core Sample Application ssssssss
+  description: Simple - ASP.NET Core Sample Application - branch test
 
 
 #interval in seconds
@@ -7,8 +7,3 @@ spring:
     cloud:
         config:
             refreshInterval: 60
----
-# Exemplo usando profile no mesmo arquivo
-info:
-  profiles: development
-  description: Simple - ASP.NET Core Sample Application development
