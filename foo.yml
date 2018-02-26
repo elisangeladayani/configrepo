@@ -1,5 +1,15 @@
+# Exemplo Usando valor default e variável de ambiente
 info:
-  description: Simple - ASP.NET Core Sample Application ssssssss
+  description: ${VARIAVEL_DE_AMBIENTE:Simple - ASP.NET Core Sample Application}
+
+# Exemplo Simples
+#info:
+#  description: Simple - ASP.NET Core Sample Application ssssssss
+
+# Exemplo usando profile no mesmo arquivo
+#info:
+#  profiles: development
+#  description: Simple - ASP.NET Core Sample Application development
 
 #interval in seconds
 spring:
