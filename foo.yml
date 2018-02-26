@@ -1,14 +1,14 @@
-# Exemplo Simples
 info:
   description: Simple - ASP.NET Core Sample Application ssssssss
 
-# Exemplo usando profile no mesmo arquivo
-info:
-  profiles: development
-  description: Simple - ASP.NET Core Sample Application development
 
 #interval in seconds
 spring:
     cloud:
         config:
             refreshInterval: 60
+---
+# Exemplo usando profile no mesmo arquivo
+info:
+  profiles: development
+  description: Simple - ASP.NET Core Sample Application development
